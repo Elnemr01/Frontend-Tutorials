@@ -21,7 +21,7 @@ let message=document.querySelector(".message");
 
 // -----------setting of inputs-----------
 
-let numOfTries=7;
+let numOfTries=6;
 let numOfLetters=gusseWord.length;
 let currentTry=1;
 
