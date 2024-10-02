@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 5000px;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: blue;
+    border-radius: 5px;
+}
+
+.scroller {
+    background-color: blue;
+    position: fixed;
+    height: 5px;
+    width: 0;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+}
+
+button {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: #607D8B;
+    text-transform: uppercase;
+    padding: 7px;
+    font-size: 15px;
+    border: none;
+    border-radius: 7px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    display: none;
+    transition: .5s;
+}

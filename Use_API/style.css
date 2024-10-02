@@ -1,0 +1,56 @@
+body {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.input {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+}
+
+.input input {
+    background-color: #eee;
+    padding: 10px 15px;
+    border: 2px solid black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.input input:focus {
+    outline: none;
+}
+
+
+.input input::placeholder {
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+.result {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    padding: 15px;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+
+
+.result .egy span,
+.result .sar span {
+    display: flex;
+    background-color: #EEE;
+    width: auto;
+    height: 50px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+}
