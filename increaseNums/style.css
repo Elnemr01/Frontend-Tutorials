@@ -1,0 +1,45 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+section:first-child {
+    background-color: #eee;
+}
+
+section:nth-child(2) {
+    background-color: #ccc;
+}
+
+section:nth-child(3) {
+    background-color: #eee;
+}
+
+section:nth-child(4) {
+    background-color: #ccc;
+}
+
+section .nums {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .nums .num {
+    font-size: 25px;
+}
+
+section .nums .num:not(:first-child) {
+    margin-left: 40px;
+}
