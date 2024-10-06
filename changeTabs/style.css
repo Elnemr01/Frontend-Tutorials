@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+ul {
+    list-style: none;
+}
+
+section {
+    max-width: 500px;
+    max-height: 300px;
+    padding: 20px;
+    text-transform: capitalize;
+    background-color: white;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+section ul {
+    display: flex;
+    justify-content: flex-start;
+}
+
+section ul li {
+    padding: 10px 15px;
+    cursor: pointer;
+    user-select: none;
+    background-color: #eee;
+    color: #0000009e;
+    position: relative;
+    border-top: 1px solid black;
+}
+
+section ul li:first-child {
+    border-left: 1px solid black;
+}
+
+/* section ul li:nth-child(2) {
+    border: 1px solid black;
+    border-bottom: none;
+} */
+
+section ul li:last-child {
+    border-right: 1px solid black;
+} 
+
+section ul li:not(:first-child) {
+    padding-left: 20px;
+}
+
+section li.active {
+    color: #009688;
+    background-color: white;
+}
+
+/* section li.active::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0;
+    background-color: blue;
+    height: 1px;
+    width: 100%;
+} */
+
+section li.active::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    background-color: white;
+    height: 2px;
+    width: 100%;
+}
+
+section p {
+    padding: 20px;
+    border: 1px solid black;
+}
+
+section p:not(.active) {
+    display: none;
+}
