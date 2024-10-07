@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fill Text</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            font-family: Arial, Tahoma;
+        }
+
+        .text {
+            display: flex;
+            margin: 100px auto;
+            justify-content: center;
+            transition-delay: 2.5s;
+        }
+        .fill {
+            margin-left: 10px;
+            font-size: 50px;
+            font-weight: bold;
+            width: fit-content;
+            text-transform: capitalize;
+            -webkit-text-fill-color: white;
+            -webkit-text-stroke: 3px black;
+            position: relative;
+        }
+        .fill::before {
+            content: attr(data-text);
+            text-transform: capitalize;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            width: 0;
+            -webkit-text-fill-color: red;
+            transition-duration: .5s;
+            overflow: hidden;
+        }
+        .text:hover .fill::before {
+            width: 100%;
+        }
+        .text:hover {
+            color: violet;
+        }
+        .text .fill:nth-child(2)::before {
+            transition-delay: .5s;
+        }
+
+        .text .fill:nth-child(3)::before {
+            transition-delay: 1s;
+        }
+        .text .fill:nth-child(4)::before {
+            transition-delay: 1.5s;
+        }
+        .text .fill:last-child::before {
+            transition-delay: 2s;
+        }
+    </style>
+</head>
+<body>
+    <div class="text">
+        <div class="fill" data-text="my"> my</div>
+        <div class="fill" data-text="name"> name</div>
+        <div class="fill" data-text="is"> is</div>
+        <div class="fill" data-text="ahmed"> ahmed</div>
+        <div class="fill" data-text="elnemr"> elnemr</div>
+    </div>
+</body>
+</html>
