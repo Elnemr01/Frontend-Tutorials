@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Image slider</title>
+</head>
+<body>
+    <div class="slider">
+        <div class="image-num">silde #1</div>
+        <img src="images/gallery-01.png" alt="photo" loading="lazy" class="active">
+        <img src="images/gallery-02.png" alt="photo" loading="lazy">
+        <img src="images/gallery-03.jpg" alt="photo" loading="lazy">
+        <img src="images/gallery-04.png" alt="photo" loading="lazy">
+        <img src="images/gallery-05.jpg" alt="photo" loading="lazy">
+        <img src="images/gallery-06.png" alt="photo" loading="lazy">
+    </div>
+    <div class="control">
+        <span class="prev">&lt;</span>
+        <!--contain the nums of images to click on one of them to go to -->
+        <ul class="indecator" id="indecator">
+            <li class="active">1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+        </ul>
+        <span class="next">&gt;</span>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

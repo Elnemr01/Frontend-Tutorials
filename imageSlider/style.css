@@ -1,0 +1,109 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: Tahoma , Arial;
+    box-sizing: border-box;
+}
+
+
+ul {
+    list-style: none;
+}
+
+/* --------------------------------------------------------- */
+
+.slider {
+    position: relative;
+    margin: 25px auto;
+    width: 600px;
+    height: 600px;
+}
+
+.slider img {
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    transition: .5s;
+    max-width: 100%;
+}
+
+.slider img.active {
+    opacity: 1;
+}
+
+.slider .image-num {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, .2);
+    color: #fff;
+    padding: 3px 6px;
+    text-transform: capitalize;
+}
+
+.control {
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 30px;
+}
+
+.control ul {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.control .prev {
+    cursor: pointer;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    user-select: none;
+    margin-right: 10px;
+}
+
+.control .next {
+    cursor: pointer;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    margin-left: 10px;
+    user-select: none;
+    transition: .5s;
+}
+
+.control .prev:hover ,
+.control .next:hover {
+    color: rgb(106, 0, 0);
+}
+
+
+.control ul li {
+    font-weight: bold;
+    font-size: 15px;
+    padding:10px;
+    cursor: pointer;
+    background-color:black;
+    color:white;
+    transition: .5s;
+}
+
+.control ul li:hover {
+    background-color: rgb(106, 0, 0);
+}
+
+.control ul li.active {
+    background-color: red;
+}
+
+.control ul li:not(:first-child) {
+    margin-left: 10px;
+}
