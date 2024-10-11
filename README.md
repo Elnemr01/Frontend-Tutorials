@@ -9,3 +9,5 @@ Demo of randomBackImg: https://elnemr01.github.io/Frontend-Tutorials/RandomBackI
 Demo of showWorks: https://elnemr01.github.io/Frontend-Tutorials/showWorks
 
 Demo of changeTabs: https://elnemr01.github.io/Frontend-Tutorials/changeTabs
+
+Demo of imageSlider: https://elnemr01.github.io/Frontend-Tutorials/imageSlider
