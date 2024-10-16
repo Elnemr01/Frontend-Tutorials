@@ -11,3 +11,6 @@ Demo of showWorks: https://elnemr01.github.io/Frontend-Tutorials/showWorks
 Demo of changeTabs: https://elnemr01.github.io/Frontend-Tutorials/changeTabs
 
 Demo of imageSlider: https://elnemr01.github.io/Frontend-Tutorials/imageSlider
+
+Demo of fetchRepo: https://elnemr01.github.io/Frontend-Tutorials/fetchRepo
+
