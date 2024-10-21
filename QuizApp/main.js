@@ -11,7 +11,7 @@ let currentQ=1;
 let len=0;
 let countTimer;
 let correctAnswers=[];
-let duration=10;
+let duration=10*60;
 // --------------------------------------------------
 // create Questions
 window.onload=function () {
