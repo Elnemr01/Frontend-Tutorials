@@ -14,3 +14,6 @@ Demo of imageSlider: https://elnemr01.github.io/Frontend-Tutorials/imageSlider
 
 Demo of fetchRepo: https://elnemr01.github.io/Frontend-Tutorials/fetchRepo
 
+Demo of QuizApp: https://elnemr01.github.io/Frontend-Tutorials/QuizApp
+
+
