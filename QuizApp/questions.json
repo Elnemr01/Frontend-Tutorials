@@ -49,35 +49,35 @@
     }
     ,
     {
-        "question":"Which planet is closest to the sun?",
-        "answer1":"Earth",
-        "answer2":"Mars",
-        "answer3":"Venus",
-        "answer4":"Mercury",
-        "answer5":"Mercury"
+        "question":"Who painted the Mona Lisa?",
+        "answer1":"Vincent van Gogh",
+        "answer2":"Pablo Picasso",
+        "answer3":"Leonardo da Vinci",
+        "answer4":"Michelangelo",
+        "answer5":"Leonardo da Vinci"
     },
     {
-        "question":"Which planet is closest to the sun?",
-        "answer1":"Earth",
-        "answer2":"Mars",
-        "answer3":"Venus",
-        "answer4":"Mercury",
-        "answer5":"Mercury"
+        "question":"How many continents are there in the world?",
+        "answer1":"5",
+        "answer2":"6",
+        "answer3":"7",
+        "answer4":"8",
+        "answer5":"7"
     },
     {
-        "question":"Which planet is closest to the sun?",
-        "answer1":"Earth",
-        "answer2":"Mars",
-        "answer3":"Venus",
-        "answer4":"Mercury",
-        "answer5":"Mercury"
+        "question":"What is the chemical symbol for gold?",
+        "answer1":"Au",
+        "answer2":"Ag",
+        "answer3":"Hg",
+        "answer4":"Fe",
+        "answer5":"Au"
     },
     {
-        "question":"Which planet is closest to the sun?",
-        "answer1":"Earth",
-        "answer2":"Mars",
-        "answer3":"Venus",
+        "question":"Which country is known as the Land of the Rising Sun?",
+        "answer1":"China",
+        "answer2":"Japan",
+        "answer3":"South ",
         "answer4":"Mercury",
-        "answer5":"Mercury"
+        "answer5":"Thailand"
     }
 ]
