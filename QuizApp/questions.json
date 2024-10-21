@@ -1,0 +1,83 @@
+[
+    {
+        "question":"What is the capital of France?",
+        "answer1":"Berlin",
+        "answer2":"Madrid",
+        "answer3":"Rome",
+        "answer4":"Paris",
+        "answer5":"Paris"
+    },
+    {
+        "question":"Who is the founder of Microsoft?",
+        "answer1":"Steve Jobs",
+        "answer2":"Mark Zuckerberg",
+        "answer3":"Bill Gates",
+        "answer4":"Elon Musk",
+        "answer5":"Bill Gates"
+    },
+    {
+        "question":"Which planet is closest to the sun?",
+        "answer1":"Earth",
+        "answer2":"Mars",
+        "answer3":"Venus",
+        "answer4":"Mercury",
+        "answer5":"Mercury"
+    },
+    {
+        "question":"What is the largest ocean in the world?",
+        "answer1":"Pacific Ocean",
+        "answer2":"Indian Ocean",
+        "answer3":"Arctic Ocean",
+        "answer4":"Atlantic Ocean",
+        "answer5":"Pacific Ocean"
+    },
+    {
+        "question":"Which element has the chemical symbol 'O'?",
+        "answer1":"Gold",
+        "answer2":"Oxygen",
+        "answer3":"Osmium",
+        "answer4":"Octium",
+        "answer5":"Oxygen"
+    },
+    {
+        "question":"Which planet in our solar system is known for its rings?",
+        "answer1":"Jupiter",
+        "answer2":"Saturn",
+        "answer3":"Neptune",
+        "answer4":"Uranus",
+        "answer5":"Saturn"
+    }
+    ,
+    {
+        "question":"Which planet is closest to the sun?",
+        "answer1":"Earth",
+        "answer2":"Mars",
+        "answer3":"Venus",
+        "answer4":"Mercury",
+        "answer5":"Mercury"
+    },
+    {
+        "question":"Which planet is closest to the sun?",
+        "answer1":"Earth",
+        "answer2":"Mars",
+        "answer3":"Venus",
+        "answer4":"Mercury",
+        "answer5":"Mercury"
+    },
+    {
+        "question":"Which planet is closest to the sun?",
+        "answer1":"Earth",
+        "answer2":"Mars",
+        "answer3":"Venus",
+        "answer4":"Mercury",
+        "answer5":"Mercury"
+    },
+    {
+        "question":"Which planet is closest to the sun?",
+        "answer1":"Earth",
+        "answer2":"Mars",
+        "answer3":"Venus",
+        "answer4":"Mercury",
+        "answer5":"Mercury"
+    }
+]

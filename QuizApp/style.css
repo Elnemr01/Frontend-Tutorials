@@ -1,0 +1,244 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* -------- global classes -----------*/
+.Q-active {
+    display: block;
+}
+
+.disabled {
+    opacity: .4;
+    pointer-events: none;
+}
+
+.filled::before {
+    opacity: 1;
+}
+
+/* -------- body reules -----------*/
+
+.application {
+    margin: 20px auto;
+    max-width: 800px;
+    position: relative;
+    background-color: #020C1D;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.application .message {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 100px;
+    background-color: white;
+    z-index: -2;
+    border-radius: 10px;
+    transition: .5s;
+    opacity: 0;
+}
+
+.application .message p {
+    text-transform: capitalize;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 25px;
+    font-weight: 700;
+    color: #020C1D;
+}
+
+.application .message .result {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    background-color: #020C1D;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.application .message .result.result:hover {
+    background-color: #020c1ddd;
+}
+
+/* -------- timer reules -----------*/
+
+.application .timer {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: rgba(0, 0, 0, 0.167);
+    color: black;
+    z-index: 2;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    color: white;
+}
+/* -------- Question area reules -----------*/
+.application .Q-area .question:not(.Q-active) {
+    display: none;
+}
+
+.application .Q-area .question {
+    text-align: center;
+    position: relative;
+    background-color: #020C1D;
+    padding: 20px;
+}
+
+.application .Q-area .question h2 {
+    font-size: 27px;
+    color: white;
+}
+
+.application .Q-area .question p {
+    margin: 20px 0;
+    font-size: 27px;
+    text-align: start;
+    color: #020C1D;
+    background-color: white;
+    padding: 20px 0;
+    border-radius: 10px;
+    padding-left: 32px;
+}
+
+.application .Q-area .question .choices {
+    text-align: start;
+}
+
+.application .Q-area .question .choices .Achoice {
+    position: relative;
+    padding: 15px 15px 15px 50px;
+    font-size: 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+    color: #020C1D;
+    user-select: none;
+    background-color: #FFE7E2;
+    border-radius: 10px;
+}
+
+.application .Q-area .question .choices .Achoice:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.application .Q-area .question .choices .Achoice::before,
+.application .Q-area .question .choices .Achoice::after {
+    content: '';
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.application .Q-area .question .choices .Achoice::before {
+    width: 10px;
+    height: 10px;
+    background-color: #020C1D;
+    left: 32px;
+    z-index: 2;
+    transition: .3s;
+}
+
+.application .Q-area .question .choices .Achoice:not(.filled)::before {
+    opacity: 0;
+}
+
+.application .Q-area .question .choices .Achoice::after {
+    width: 14px;
+    height: 14px;
+    left: 30px;
+    background-color: #F5A191;
+}
+
+/* -----------------------control---------------- */
+.application .control {
+    margin-top: 25px;
+    height: 50px;
+    position: relative;
+}
+
+
+.application .control .end {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    display: none;
+    cursor: pointer;
+    padding: 5px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    background-color: #155FCF;
+    color: white;
+    border: navajowhite;
+    transition: .4s;
+    border-radius: 7px;
+}
+
+
+.application .control .next {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    display: block;
+    cursor: pointer;
+    padding: 5px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    background-color: #155FCF;
+    color: white;
+    border: none;
+    transition: .4s;
+    border-radius: 7px;
+}
+
+.application .control .previous {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    cursor: pointer;
+    padding: 5px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    background-color: #155FCF;
+    color: white;
+    border: navajowhite;
+    border-radius: 7px;
+    transition: .4s;
+}
+
+.application .control .previous:hover,
+.application .control .next:hover,
+.application .control .end:hover {
+    background-color: #213C81;
+}
+
