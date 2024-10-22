@@ -30,6 +30,7 @@ ul {
 /* -------- body reules -----------*/
 
 .application {
+    transition: .4s;
     margin: 20px auto;
     max-width: 800px;
     position: relative;
@@ -115,6 +116,7 @@ ul {
 .application .Q-area .question h2 {
     font-size: 27px;
     color: white;
+    text-transform: capitalize;
 }
 
 .application .Q-area .question p {
