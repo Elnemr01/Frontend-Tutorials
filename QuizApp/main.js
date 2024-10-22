@@ -7,7 +7,7 @@ let result=document.querySelector(".result");
 let message=document.querySelector(".message");
 let control=document.querySelector(".control");
 let timer=document.querySelector(".timer");
-let app=document.querySelector(".application");
+let myApplication=document.querySelector(".application");
 
 let currentQ=1;
 let len=0;
@@ -69,7 +69,7 @@ let Qdivs=document.querySelectorAll(".question");
 let choices=document.querySelectorAll(".Q-active .Achoice");
 
 QuizTime(duration);
-app.classList.remove("disabled");
+myApplication.classList.remove("disabled");
 // handle choices for first time
 handleChoices(choices);
 if(currentQ===1) {
