@@ -8,9 +8,15 @@ let timer_fun;
 
 input.addEventListener("input",()=> {
     let val=input.value;
-    duration=parseInt(val)*60;
-    clearInterval(timer_fun)
-    timmmmmmer(duration);
+    if(val!=="") {
+        duration=parseInt(val)*60;
+        clearInterval(timer_fun)
+        timmmmmmer(duration);
+    }
+    else {
+        clearInterval(timer_fun);
+        timer.innerHTML="Choose To Start";
+    }
 })
 
 lis.forEach((li)=> {
