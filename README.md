@@ -16,4 +16,6 @@ Demo of fetchRepo: https://elnemr01.github.io/Frontend-Tutorials/fetchRepo
 
 Demo of QuizApp: https://elnemr01.github.io/Frontend-Tutorials/QuizApp
 
+Demo of Timer with options: https://elnemr01.github.io/Frontend-Tutorials/Timer with options
+
 
